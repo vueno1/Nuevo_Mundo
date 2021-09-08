@@ -1,0 +1,897 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* fondos */
+/* bordes */
+/* color fuentes */
+/* color botones */
+/* header  */
+/* header banner */
+/* titulos */
+/* main */
+/* footer */
+/* COVID SECTION */
+/* form */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* ------------------------------------------------- */
+/* pagina: index - header  */
+.header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: #4a96ca;
+  z-index: 2;
+  width: 100%;
+  padding: 10px; }
+
+.header__logo-agencia {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  .header__logo-agencia a {
+    text-decoration: none; }
+  .header__logo-agencia h2 {
+    font-family: "Noto Sans JP", sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px; }
+
+.header__nav {
+  width: 100%;
+  display: flex;
+  align-items: flex-end; }
+  .header__nav ul {
+    margin-bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around; }
+  .header__nav a {
+    color: white;
+    list-style-type: none;
+    text-decoration: none; }
+
+ul a:hover {
+  background-color: #34698d;
+  border-radius: 10px; }
+
+.nav__destinos {
+  list-style-type: none; }
+
+#nav__submenu {
+  display: none;
+  position: absolute; }
+  #nav__submenu li {
+    list-style-type: none; }
+
+.submenu2 {
+  width: 150px; }
+
+.submenu2:hover {
+  background-color: #34698d;
+  border-radius: 10px; }
+
+ul li:hover #nav__submenu {
+  display: flex;
+  flex-direction: column; }
+
+.whatsapp {
+  width: 20px;
+  height: 20px; }
+
+/* -------------------------------------------- */
+/* pagina index - main */
+.main__index {
+  padding-top: 100px; }
+
+.seccion__video {
+  display: flex;
+  position: relative; }
+  .seccion__video video {
+    width: 100%; }
+
+.index__busqueda {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px; }
+
+.index__busqueda__detalle {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: white solid;
+  border-radius: 15px;
+  padding: 20px; }
+
+.index__busqueda__h3 {
+  margin: 10px 0; }
+  .index__busqueda__h3 h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px; }
+
+.index__busqueda__radio {
+  margin-bottom: 10px; }
+  .index__busqueda__radio input {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 5px; }
+  .index__busqueda__radio label {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 5px; }
+
+.index__busqueda__ciudades-fechas {
+  margin: 10px 0; }
+
+.index__busqueda__clase {
+  margin: 10px 0; }
+
+/* articulo covid */
+.btn {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  border: none; }
+
+.seccion-covid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ff0000;
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+  align-items: center;
+  width: 100%; }
+  .seccion-covid p {
+    margin-bottom: 0;
+    font-weight: bolder; }
+
+/* -------------------- */
+.index__seccion {
+  padding: 50px 0;
+  margin: 60px 0; }
+
+.index__titulos {
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  padding: 20px 0; }
+
+.index__seccion__grilla {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 300px;
+  overflow: hidden; }
+
+.index__a {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center; }
+
+.index__fotos {
+  height: 300px;
+  margin: 0 50px; }
+
+.index__h3 {
+  display: flex;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 100%;
+  font-weight: bold; }
+
+.logo__promociones {
+  height: 50px; }
+
+.carousel-inner {
+  height: 400px;
+  overflow: hidden; }
+
+.index__iframe {
+  width: 100%;
+  background-color: grey;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center; }
+
+/* ------------------------------------------------ */
+/* footer (todas paginas)  */
+.footer__barra-gris {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.171);
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center; }
+
+.footer__inside {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center; }
+
+.footer__titulo {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  color: black; }
+  .footer__titulo h3 {
+    font-size: 20px;
+    font-weight: bolder; }
+  .footer__titulo h4 {
+    font-size: 15px; }
+  .footer__titulo span {
+    font-size: 15px;
+    font-style: italic; }
+
+.footer__redes-sociales {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around; }
+
+.redes__img {
+  height: 30px; }
+
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* todas las paginas secundarias  - header imagen  */
+.header__imagen {
+  display: flex;
+  position: relative;
+  padding-top: 80px;
+  justify-content: center;
+  align-items: center; }
+  .header__imagen img {
+    width: 100%; }
+  .header__imagen h2 {
+    display: flex;
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: rgba(128, 128, 128, 0.459);
+    width: 100%;
+    justify-content: center; }
+
+/*  paginas destinos - main */
+.main__pagina-destinos {
+  padding-top: 120px;
+  position: relative; }
+
+.seccion__destino {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.seccion__destino__lugares {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 0; }
+  .seccion__destino__lugares h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 50px;
+    text-align: center; }
+
+.seccion__destino__fotos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.card {
+  margin: 0 10px; }
+
+.seccion__destino__fotos__interno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; }
+  .seccion__destino__fotos__interno img {
+    height: 200px; }
+
+.seccion__destino__h3 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  padding: 0 50px; }
+  .seccion__destino__h3 h3 {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    background-color: #80808073; }
+
+.destino__logo {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  z-index: 2; }
+
+/* ---------------------------------------------------------- */
+/* pagina promociones */
+.main__promociones {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px; }
+
+.promociones__grid {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  justify-content: center;
+  position: relative; }
+
+.promociones__cuadro {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: grey solid;
+  border-width: thin;
+  border-radius: 0 0 15px 15px;
+  align-items: center; }
+
+.promociones__img {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+  border-bottom: grey solid;
+  border-width: thin;
+  justify-content: center; }
+  .promociones__img img {
+    overflow: hidden; }
+
+.promociones__titulo {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  border-bottom: grey solid;
+  border-width: thin; }
+  .promociones__titulo h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center; }
+  .promociones__titulo h4 {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center; }
+
+.promociones__detalle-incluye {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: grey solid;
+  border-width: thin;
+  padding: 10px 0 20px 0; }
+  .promociones__detalle-incluye p {
+    font-size: 70%;
+    text-align: center; }
+
+.promociones__precio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .promociones__precio p {
+    font-family: "Montserrat", sans-serif; }
+
+.promociones__precio2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 30px; }
+
+.promociones__pedilo {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%; }
+  .promociones__pedilo button {
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    border: grey solid;
+    border-radius: 15px;
+    border-width: thin;
+    padding: 10px; }
+
+.promociones__logo {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  z-index: 2; }
+
+.promociones__suscribete {
+  display: flex;
+  justify-content: center; }
+
+.promociones__suscribete__formulario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px; }
+  .promociones__suscribete__formulario legend {
+    font-size: 90%;
+    margin-right: 20px; }
+
+.promociones__enviar, .contacto__limpiar, .contacto__enviar, .blog__limpiar, .blog__enviar {
+  background-color: #4a96ca;
+  color: white;
+  border: #4a96ca solid;
+  border-radius: 15px;
+  margin-left: 10px; }
+
+/* -------------------------------------------------------- */
+/* pagina contacto */
+.main__contacto {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px; }
+
+.contacto__direccion {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0;
+  justify-content: center; }
+
+.seccion__contacto {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  padding-right: 50px; }
+  .seccion__contacto a {
+    text-decoration: none;
+    color: grey; }
+
+.contacto__barra-abajo {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 20px;
+  background-color: rgba(128, 128, 128, 0.171);
+  justify-content: space-around; }
+
+.contacto__horario {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80%;
+  padding-left: 20px; }
+  .contacto__horario h3 {
+    font-size: medium; }
+  .contacto__horario span {
+    display: block; }
+
+.contacto__forma-pagos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80%;
+  border-left: rgba(128, 128, 128, 0.158) solid;
+  padding-left: 20px; }
+  .contacto__forma-pagos h3 {
+    font-size: medium; }
+  .contacto__forma-pagos img {
+    height: 50px;
+    margin: 10px; }
+
+.contacto__preguntas {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80%;
+  border-left: rgba(128, 128, 128, 0.158) solid;
+  padding-left: 20px; }
+  .contacto__preguntas h3 {
+    font-size: medium; }
+
+.contacto__formulario {
+  display: flex;
+  flex-direction: column;
+  border-left: rgba(128, 128, 128, 0.158) solid;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80%; }
+  .contacto__formulario h3 {
+    font-size: medium; }
+
+.contacto__fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 20px; }
+
+.contacto__banner {
+  width: 100%;
+  margin: 50px 0; }
+  .contacto__banner img {
+    width: 100%; }
+
+/* ------------------------------------------------------------------- */
+/* pagina blog - main  */
+.main__blog {
+  padding-top: 50px; }
+
+.blog__pencil {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 0; }
+  .blog__pencil img {
+    height: 30px; }
+  .blog__pencil h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 30px; }
+
+.blog__historias {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  justify-content: center;
+  margin: 50px 0; }
+
+.blog__historias__seccion {
+  border: 1px solid #eee; }
+
+.blog__historias__seccion:hover {
+  opacity: 0.8; }
+
+.blog__imagen {
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
+
+.blog__texto {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 0;
+  padding: 0 20px; }
+  .blog__texto span {
+    color: blue;
+    font-size: 80%; }
+  .blog__texto h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 20px; }
+  .blog__texto p {
+    font-style: italic; }
+
+.seccion__blog__form {
+  display: flex;
+  justify-content: center; }
+
+.blog__form {
+  background-color: rgba(128, 128, 128, 0.219);
+  color: black;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  border: grey solid;
+  border-width: thin;
+  text-align: center; }
+
+.legend {
+  display: flex;
+  font-family: "Playfair Display", serif;
+  font-size: 90%;
+  justify-content: center; }
+
+.blog__form__inside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px; }
+
+.blog__label {
+  display: flex;
+  flex-direction: column; }
+
+.blog__input {
+  font-size: small; }
+
+.checkbox {
+  display: flex;
+  flex-direction: row; }
+
+/* RESPONSIVE PARA INDEX */
+@media screen and (max-width: 1300px) {
+  .index__seccion {
+    padding: 0;
+    margin: 30px 0; }
+  .carousel-inner {
+    height: 200px; } }
+
+@media screen and (max-width: 1200px) {
+  .index__fotos {
+    margin: 0 10px; }
+  .index__iframe iframe {
+    width: 360px;
+    margin: 20px 0;
+    height: 100%; } }
+
+@media screen and (max-width: 910px) {
+  .index__seccion__grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+    height: 100%;
+    overflow: inherit; }
+  .index__seccion {
+    display: flex;
+    flex-direction: column; }
+  .btn {
+    z-index: 2; } }
+
+@media screen and (max-width: 720px) {
+  .carousel-inner {
+    height: 150px; } }
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column; }
+  .seccion__video {
+    flex-direction: column; }
+  .index__busqueda {
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    padding: 0; }
+  .index__busqueda__radio {
+    display: flex;
+    flex-direction: column; }
+  .index__busqueda__ciudades-fechas {
+    display: flex;
+    flex-direction: column; }
+  .index__seccion__grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  .index__seccion__inside {
+    margin: 20px 0; }
+  .tren__h3 {
+    font-size: 20px; }
+  .index__iframe {
+    flex-direction: column;
+    align-items: center; }
+  .index__iframe iframe {
+    width: 360px;
+    margin: 20px 0; }
+  .footer__inside {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 480px) {
+  .header__nav nav ul {
+    display: flex;
+    flex-direction: column; }
+  ul li:hover #nav__submenu {
+    display: none; }
+  .index__seccion__grilla {
+    display: grid;
+    grid-template-columns: 1fr; }
+  video {
+    display: none; }
+  .carousel-inner {
+    display: none; }
+  .index__busqueda {
+    padding-top: 50px; } }
+
+@media screen and (max-width: 390px) {
+  .header__nav__ul {
+    flex-direction: column;
+    align-items: center; }
+  .index__busqueda {
+    padding-top: 150px; } }
+
+@media screen and (max-width: 300px) {
+  .index__iframe {
+    display: none; } }
+
+/* ------------fin pagina index---------------------- */
+/* RESPONSIVE PAGINA DESTINOS  */
+@media screen and (max-width: 900px) {
+  .main__pagina-destinos {
+    padding: 0; }
+  .destino__logo {
+    display: none; } }
+
+@media screen and (max-width: 768px) {
+  .header__imagen {
+    padding-top: 140px; }
+  .seccion__destino {
+    align-items: center; }
+  .seccion__destino__fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center; }
+  img {
+    vertical-align: unset; } }
+
+@media screen and (max-width: 480px) {
+  .header__imagen h2 {
+    font-size: 20px; }
+  .seccion__destino__fotos {
+    grid-template-columns: 1fr;
+    align-items: center; }
+  .seccion__destino__fotos {
+    grid-row-gap: 50px; } }
+
+@media screen and (max-width: 372px) {
+  .header__imagen {
+    padding-top: 200px; } }
+
+@media screen and (max-width: 300px) {
+  .seccion__destino__lugares h2 {
+    font-size: 30px; }
+  .card {
+    align-items: center; }
+    .card img {
+      height: 50%;
+      width: 50%; }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .card-body p {
+      font-size: 80%; }
+  .btn {
+    z-index: 1; } }
+
+/* -------------------------------------------------------- */
+/* RESPONSIVE PAGINA PROMOCIONES  */
+@media screen and (max-width: 1600px) {
+  .promociones__logo {
+    display: none; } }
+
+@media screen and (max-width: 860px) {
+  .promociones__grid {
+    grid-template-columns: 250px 250px; } }
+
+@media screen and (max-width: 790px) {
+  .main__promociones {
+    padding: 10px; } }
+
+@media screen and (max-width: 768px) {
+  .promociones__grid {
+    grid-template-columns: 250px; }
+  .seccion__grilla-promociones {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 480px) {
+  .promociones__suscribete__formulario {
+    flex-direction: column;
+    align-items: inherit; }
+  .promociones__enviar, .contacto__limpiar, .contacto__enviar, .blog__limpiar, .blog__enviar {
+    margin: 10px; } }
+
+@media screen and (max-width: 375px) {
+  .promociones__grid {
+    padding-top: 50px; } }
+
+/* -------------------------------------------------------- */
+/* RESPONSIVE PAGINA BLOG */
+@media screen and (max-width: 860px) {
+  .blog__historias {
+    grid-template-columns: 250px 250px; }
+  .blog__imagen {
+    width: 250px;
+    overflow: hidden; } }
+
+@media screen and (max-width: 768px) {
+  .blog__pencil {
+    margin-top: 0; }
+  .blog__pencil img {
+    height: 20px; }
+  .blog__pencil h1 {
+    font-size: 20px; }
+  .blog__form {
+    padding: 20px; } }
+
+@media screen and (max-width: 570px) {
+  .blog__historias {
+    grid-template-columns: 250px; }
+  .blog__pencil h1 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 490px) {
+  .blog__form {
+    width: 70%; } }
+
+@media screen and (max-width: 340px) {
+  .blog__input {
+    font-size: x-small; }
+  .blog__pencil h1 {
+    text-align: center; } }
+
+/* ------------------------------------------------------- */
+/* RESPONSIVE PAGINA CONTACTO */
+@media screen and (max-width: 1080px) {
+  .contacto__direccion {
+    flex-direction: column;
+    align-items: center; }
+  .seccion__contacto {
+    margin-bottom: 20px; } }
+
+@media screen and (max-width: 830px) {
+  .seccion__mapa {
+    height: 70%;
+    width: 70%;
+    overflow: hidden; } }
+
+@media screen and (max-width: 768px) {
+  .contacto__direccion {
+    flex-direction: column;
+    margin: 0;
+    align-items: center; }
+  .seccion__contacto {
+    align-items: center;
+    padding-right: 0; }
+  .contacto__barra-abajo {
+    flex-direction: column;
+    align-items: center; }
+  .contacto__forma-pagos {
+    border: none;
+    margin: 20px 0;
+    padding: 0;
+    border-top: grey solid;
+    border-width: thin;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .contacto__forma-pagos img {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .contacto__preguntas {
+    border: none;
+    margin-bottom: 20px;
+    padding: 0;
+    border-top: grey solid;
+    border-width: thin;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .contacto__formulario {
+    border: none;
+    margin-bottom: 20px;
+    padding: 0;
+    border-top: grey solid;
+    border-width: thin;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 320px) {
+  .seccion__contacto {
+    text-align: center; }
+    .seccion__contacto h3 {
+      font-size: small; }
+    .seccion__contacto h4 {
+      font-size: small; }
+    .seccion__contacto span {
+      font-size: small; }
+    .seccion__contacto a {
+      font-size: small; } }
+
+@media screen and (max-width: 280px) {
+  .seccion__contacto__form h3 {
+    font-size: small; }
+  .contacto__input {
+    font-size: x-small; } }
+
+/* -------------------------------------------------------- */

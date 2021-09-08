@@ -1,0 +1,488 @@
+/* RESPONSIVE PARA INDEX */
+
+@media screen and (max-width: 1300px) {
+    .index__seccion {
+        padding: 0;
+        margin: 30px 0;
+    }
+
+    .carousel-inner {
+        height: 200px;
+    }
+}
+
+ 
+@media screen and (max-width: 1200px) {
+
+    .index__fotos {
+        margin: 0 10px;
+    }
+
+    .index__iframe iframe {
+        width: 360px;
+        margin: 20px 0;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 910px) {
+
+    .index__seccion__grilla {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 20px;
+        height: 100%;
+        overflow: inherit;
+    }
+
+    .index__seccion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn { 
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .carousel-inner {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+    }
+
+    .seccion__video {
+        flex-direction: column;
+    }
+
+    .index__busqueda {
+        position: inherit;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .index__busqueda__radio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .index__busqueda__ciudades-fechas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .index__seccion__grilla {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .index__seccion__inside {
+        margin: 20px 0;
+    }
+
+    .tren__h3 {
+        font-size: 20px;
+    }
+
+    .index__iframe {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .index__iframe iframe {
+        width: 360px;
+        margin: 20px 0;
+    }
+    
+    .footer__inside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+}
+
+@media screen and (max-width: 480px) {
+    
+    .header__nav nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul li:hover #nav__submenu {
+        display: none;
+    }
+
+    .index__seccion__grilla {
+        display: grid;
+        grid-template-columns: 1fr;
+    }    
+
+    video {
+        display: none;
+    }
+
+    .carousel-inner {
+        display: none;
+    }
+
+    .index__busqueda {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+  .header__nav__ul {
+      flex-direction: column;
+      align-items: center;
+    } 
+
+    .index__busqueda {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .index__iframe {
+        display: none;
+    }
+}
+
+/* ------------fin pagina index---------------------- */
+
+
+/* RESPONSIVE PAGINA DESTINOS  */
+
+@media screen and (max-width: 900px) {
+
+    .main__pagina-destinos {
+        padding: 0;
+    }
+
+    .destino__logo {
+        display: none;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+
+    .header__imagen {
+        padding-top: 140px;
+    }
+
+    .seccion__destino {
+        align-items: center;
+    }
+
+    .seccion__destino__fotos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+    img {
+        vertical-align: unset;
+    }
+}
+
+@media screen and  (max-width: 480px) {
+
+    .header__imagen h2 {
+        font-size: 20px;
+    }
+
+    .seccion__destino__fotos {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }   
+    
+    .seccion__destino__fotos {
+        grid-row-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 372px) {
+
+    .header__imagen {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .seccion__destino__lugares h2 {
+        font-size: 30px;
+    }
+
+    .card {
+        align-items: center;
+
+        img {
+            height: 50%;
+            width: 50%;
+        }
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            font-size: 80%;
+        }
+    }
+
+    .btn {
+        z-index: 1;
+    }
+}
+
+
+/* -------------------------------------------------------- */
+
+/* RESPONSIVE PAGINA PROMOCIONES  */
+
+@media screen and (max-width: 1600px) {
+
+    .promociones__logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 860px) {
+
+    .promociones__grid {
+        grid-template-columns: 250px 250px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+
+    .main__promociones {
+        padding: 10px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+
+    .promociones__grid {
+        grid-template-columns: 250px;
+    }
+
+    .seccion__grilla-promociones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .promociones__suscribete__formulario {
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .promociones__enviar {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .promociones__grid {
+        padding-top: 50px;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+/* RESPONSIVE PAGINA BLOG */
+
+@media screen and (max-width: 860px) {
+    .blog__historias {
+        grid-template-columns: 250px 250px;        
+    }
+
+    .blog__imagen {
+        width: 250px;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .blog__pencil {
+        margin-top: 0;
+    }
+
+    .blog__pencil img {
+        height: 20px;
+    }
+    
+    .blog__pencil h1 {
+        font-size: 20px;
+    }
+
+    .blog__form {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    .blog__historias {
+        grid-template-columns: 250px;
+    }
+
+    .blog__pencil h1 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .blog__form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .blog__input {
+        font-size: x-small;
+    }
+
+    .blog__pencil h1 {
+        text-align: center;
+    }
+}
+
+/* ------------------------------------------------------- */
+
+/* RESPONSIVE PAGINA CONTACTO */
+
+@media screen and (max-width: 1080px) {
+    .contacto__direccion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion__contacto {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .seccion__mapa {
+        height: 70%;
+        width: 70%;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .contacto__direccion {
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    .seccion__contacto {
+        align-items: center;
+        padding-right: 0;
+    }
+
+    .contacto__barra-abajo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto__forma-pagos {
+        border: none;
+        margin: 20px 0;
+        padding: 0;
+        border-top: grey solid;
+        border-width: thin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto__forma-pagos img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto__preguntas {
+        border: none;
+        margin-bottom: 20px;
+        padding: 0;
+        border-top: grey solid;
+        border-width: thin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto__formulario {
+        border: none;
+        margin-bottom: 20px;
+        padding: 0;
+        border-top: grey solid;
+        border-width: thin;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .seccion__contacto {
+
+        text-align: center;
+        
+        h3 {
+            font-size: small;
+        }
+
+        h4 {
+            font-size: small;
+        }
+
+        span {
+            font-size: small;
+        }
+
+        a {
+            font-size: small;
+        }
+    }
+}
+
+@media screen and (max-width: 280px) {
+
+    .seccion__contacto__form h3 {
+        font-size: small;
+    }
+
+    .contacto__input {
+        font-size: x-small;
+    }
+}
+
+/* -------------------------------------------------------- */
+
+
